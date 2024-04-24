@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+}
+
+.text {
+  color: rgb(255, 94, 175);
+  font-size: 500%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.tunnel {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .tunnel {
+    background: url("scan.jpg") fixed;
+    background-position: center top; 
+    background-size: cover; 
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .tunnel {
+    background: url("blossom.jpg") fixed;
+    background-position: center top; 
+    background-size: cover; 
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tunnel {
+    background: url("tree.jpeg") fixed;
+    background-position: center top; 
+    background-size: cover; 
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tunnel {
+    background: url("central.jpg") fixed;
+    background-position: center top; 
+    background-size: cover; 
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .tunnel {
+    background: url("earth.jpg") fixed;
+    background-position: center top; 
+    background-size: cover; 
+  }
+}
